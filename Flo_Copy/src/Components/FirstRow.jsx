@@ -8,11 +8,11 @@ const FirstRow = () => {
         <div className="firstrow-donwload">Hemen İndir</div>
       </div>
       <div className="first-row-container2">
-        <div className="firstrow-rigthtop">Sipariş Takibi</div>
+        <div className="firstrow-rigthtop firstrow-rigthtop-cursor">Sipariş Takibi</div>
         <div className="firstrow-rigthtop">|</div>
-        <div className="firstrow-rigthtop">Kolay İade</div>
+        <div className="firstrow-rigthtop firstrow-rigthtop-cursor">Kolay İade</div>
         <div className="firstrow-rigthtop">|</div>
-        <div className="firstrow-rigthtop">Yardım</div>
+        <div className="firstrow-rigthtop firstrow-rigthtop-cursor">Yardım</div>
       </div>
     </div>
   );

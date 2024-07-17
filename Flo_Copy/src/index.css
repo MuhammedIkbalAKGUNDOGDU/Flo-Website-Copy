@@ -55,11 +55,19 @@ body {
 .cinsiyet:hover {
   color: #f60;
   font-weight: bold;
+  cursor: pointer;
 }
 .firstrow-user {
   width: 30px;
   height: 30px;
-  margin-left: 2rem;
+}
+.firstrow-cart {
+  width: 30px;
+  height: 30px;
+}
+
+.firstrow-cart-box:hover ,.firstrow-user-box:hover{
+  cursor: pointer;
 }
 
 .firstrow-user-box,
@@ -77,8 +85,8 @@ body {
 
 .firstrow-user-font,
 .firstrow-cart-font {
-  font-size: 12px; /* Yazı boyutunu küçülttüm */
-  text-align: center; /* Yazıları ortaladım */
+  font-size: 12px; 
+  text-align: center; 
   margin-top: 5px;
 }
 
@@ -92,6 +100,7 @@ body {
   border-width: 0cap;
   background-color: transparent;
 }
+
 
 .firstrow-rigthtop {
   margin-left: 1rem;
@@ -139,4 +148,8 @@ body {
   width: 100%;
   height: 3px; /* Alt çizginin kalınlığını ayarla */
   background-color: #f60; /* Alt çizginin rengini ayarla */
+}
+
+.firstrow-rigthtop-cursor:hover{
+  cursor: pointer;
 }

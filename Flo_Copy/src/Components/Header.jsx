@@ -7,7 +7,7 @@ import logo from "../assets/flo-logo.svg";
 const Header = () => {
   return (
     <div className="header-container1">
-      <img className="mainpage-logo" src={logo} alt="logo"></img>
+      <img className="mainpage-logo firstrow-rigthtop-cursor" src={logo} alt="logo"></img>
       <div className="cinsiyet"> Kadın </div>
       <div className="cinsiyet"> Erkek </div>
       <div className="cinsiyet"> Çocuk </div>
