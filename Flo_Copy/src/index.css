@@ -165,7 +165,6 @@ body {
     width: 74rem;
     height: 8rem;
     border-radius: 10px;
-
   }
   .banner-buttons {
     position: absolute;
@@ -180,7 +179,8 @@ body {
       margin-left: 5px;
     }
     .active {
-      width: 40px;
+      border-radius: 8px;
+      transform: scaleX(1.2);
     }
     .buttons:hover {
       cursor: pointer;
@@ -209,3 +209,27 @@ body {
   height: 297px;
   border-radius: 16px;
 }
+
+.swiper-container {
+  width: 74rem;
+  margin-left: 23rem;
+}
+
+.swiper-element {
+  width: 124px;
+  height: 158px;
+  max-width: 124px;
+  max-height: 158px;
+  padding: 0;
+  border: none;
+  box-sizing: border-box; /* Box modelini kapsayıcıya göre ayarla */
+  margin-top: 1rem;
+
+  img {
+    width: 100%; /* Kapsayıcı genişliğine uyum sağlar */
+    height: 100%; /* Kapsayıcı yüksekliğine uyum sağlar */
+    object-fit: contain; /* Resmi oranları koruyarak sığdırır */
+    border-radius: 8px;
+  }
+}
+

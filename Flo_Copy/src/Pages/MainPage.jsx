@@ -5,7 +5,7 @@ import Header from "../Components/Header";
 import Banner from "../Components/banner";
 import Mainpageads from "../Components/mainpageads";
 import Doubleads from "../Components/doubleads";
-
+import Swiper from "../Components/swiper";
 const MainPage = () => {
   return (
     <div>
@@ -49,6 +49,7 @@ const MainPage = () => {
           " https://floimages.mncdn.com/media/catalog/product/img/banners/24-07/25/mp-erkek-slazenger-1600x429.jpg.webp"
         }
       />
+      <Swiper></Swiper>
     </div>
   );
 };
