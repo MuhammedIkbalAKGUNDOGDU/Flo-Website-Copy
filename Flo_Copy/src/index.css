@@ -155,12 +155,33 @@ body {
 }
 
 .banner-container {
+
   width: 74rem;
   height: 8rem;
   margin-left: 23rem;
-
+  position: relative;
   img {
     width: 74rem;
     height: 8rem;
+  }
+  .banner-buttons {
+    
+    position: absolute;
+    display: flex;
+    left: 45%;
+    bottom: 5%;
+    .buttons {
+      background-color: grey;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      margin-left: 5px;
+    }
+    .active {
+      width: 40px;
+    }
+    .buttons:hover {
+      cursor: pointer;
+    }
   }
 }
