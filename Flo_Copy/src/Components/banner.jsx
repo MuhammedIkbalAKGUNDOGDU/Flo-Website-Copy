@@ -8,10 +8,10 @@ const Banner = () => {
   useEffect(() => {
     setBanner([
       "https://floimages.mncdn.com/media/catalog/product/img/banners/24-07/25/slider-web-ayin-c-ok-satanlari.jpg.webp",
-      "https://floimages.mncdn.com/mnresize/768/-/media/catalog/product/img/banners/24-05/22/slider-app-mp-1716375404.jpg.webp?w=768",
-      "https://floimages.mncdn.com/mnresize/768/-/media/catalog/product/img/banners/24-07/01/maksimum-slider-800x200.jpg?w=768",
-      "https://floimages.mncdn.com/mnresize/768/-/media/catalog/product/img/banners/24-07/01/800x200.jpg?w=768",
-      "https://floimages.mncdn.com/mnresize/768/-/media/catalog/product/img/banners/23-10/07/slider-app-tr-1-numarali.jpg?w=768",
+      "https://floimages.mncdn.com/media/catalog/product/img/banners/24-05/30/c-ok-al-azo-de-1200x160.jpg.webp",
+      "https://floimages.mncdn.com/media/catalog/product/img/banners/24-07/01/maksimum-1200x160.jpg.webp",
+      "https://floimages.mncdn.com/media/catalog/product/img/banners/24-07/01/1200x160.jpg.webp",
+      "https://floimages.mncdn.com/media/catalog/product/img/banners/23-10/07/slider-tr-1-numarali.jpg.webp",
     ]);
   }, []);
 
@@ -37,11 +37,26 @@ const Banner = () => {
     <div className="banner-container">
       {banner.length > 0 && <img src={banner[currentIndex]} alt="Banner" />}
       <div className="banner-buttons">
-        <div onClick={() => changeIndex(0)} className={`buttons ${currentIndex === 0 ? 'active' : ''}`}></div>
-        <div onClick={() => changeIndex(1)} className={`buttons ${currentIndex === 1 ? 'active' : ''}`}></div>
-        <div onClick={() => changeIndex(2)} className={`buttons ${currentIndex === 2 ? 'active' : ''}`}></div>
-        <div onClick={() => changeIndex(3)} className={`buttons ${currentIndex === 3 ? 'active' : ''}`}></div>
-        <div onClick={() => changeIndex(4)} className={`buttons ${currentIndex === 4 ? 'active' : ''}`}></div>
+        <div
+          onClick={() => changeIndex(0)}
+          className={`buttons ${currentIndex === 0 ? "active" : ""}`}
+        ></div>
+        <div
+          onClick={() => changeIndex(1)}
+          className={`buttons ${currentIndex === 1 ? "active" : ""}`}
+        ></div>
+        <div
+          onClick={() => changeIndex(2)}
+          className={`buttons ${currentIndex === 2 ? "active" : ""}`}
+        ></div>
+        <div
+          onClick={() => changeIndex(3)}
+          className={`buttons ${currentIndex === 3 ? "active" : ""}`}
+        ></div>
+        <div
+          onClick={() => changeIndex(4)}
+          className={`buttons ${currentIndex === 4 ? "active" : ""}`}
+        ></div>
       </div>
     </div>
   );
