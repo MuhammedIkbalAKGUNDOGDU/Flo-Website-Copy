@@ -66,7 +66,8 @@ body {
   height: 30px;
 }
 
-.firstrow-cart-box:hover ,.firstrow-user-box:hover{
+.firstrow-cart-box:hover,
+.firstrow-user-box:hover {
   cursor: pointer;
 }
 
@@ -85,8 +86,8 @@ body {
 
 .firstrow-user-font,
 .firstrow-cart-font {
-  font-size: 12px; 
-  text-align: center; 
+  font-size: 12px;
+  text-align: center;
   margin-top: 5px;
 }
 
@@ -100,7 +101,6 @@ body {
   border-width: 0cap;
   background-color: transparent;
 }
-
 
 .firstrow-rigthtop {
   margin-left: 1rem;
@@ -150,6 +150,17 @@ body {
   background-color: #f60; /* Alt çizginin rengini ayarla */
 }
 
-.firstrow-rigthtop-cursor:hover{
+.firstrow-rigthtop-cursor:hover {
   cursor: pointer;
+}
+
+.banner-container {
+  width: 74rem;
+  height: 8rem;
+  margin-left: 23rem;
+
+  img {
+    width: 74rem;
+    height: 8rem;
+  }
 }
