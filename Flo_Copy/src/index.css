@@ -233,3 +233,25 @@ body {
   }
 }
 
+.swiper-element-like {
+  width: 210px;
+  height: 326px;
+  max-width: 210px;
+  max-height: 326px;
+  padding: 0;
+  border: none;
+  box-sizing: border-box; /* Box modelini kapsayıcıya göre ayarla */
+  margin-top: 1rem;
+
+  img {
+    width: 100%; /* Kapsayıcı genişliğine uyum sağlar */
+    height: 100%; /* Kapsayıcı yüksekliğine uyum sağlar */
+    object-fit: contain; /* Resmi oranları koruyarak sığdırır */
+    border-radius: 8px;
+  }
+}
+
+.begenilenler {
+  margin-left: 23rem;
+  font-weight: normal;
+}
