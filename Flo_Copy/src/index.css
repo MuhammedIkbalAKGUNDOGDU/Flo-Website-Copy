@@ -255,3 +255,51 @@ body {
   margin-left: 23rem;
   font-weight: normal;
 }
+
+.Mainpageads-image-3 {
+  width: 357px;
+  height: 194px;
+  border-radius: 10px;
+}
+
+.margin1 {
+  height: 194px;
+}
+
+.footer_top {
+  width: 1110px;
+  height: 803px;
+  margin-left: 23rem;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+}
+
+.musteri_hizmetleri {
+}
+
+.underline {
+  width: 195px;
+  background-color: rgba(48, 47, 47, 0.13);
+  height: 0.5px;
+}
+
+.underline2{
+  width: 417px;
+}
+
+.musteri_hizmetleri-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  p {
+    color: rgb(100, 100, 100);
+  }
+}
+
+.follow_us {
+  background-color: aqua;
+}
+
+.third {
+  background-color: #f60;
+}

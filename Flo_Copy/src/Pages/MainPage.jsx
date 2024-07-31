@@ -7,6 +7,8 @@ import Mainpageads from "../Components/mainpageads";
 import Doubleads from "../Components/doubleads";
 import Swiper from "../Components/swiper";
 import Swiperlike from "../Components/swiperlike";
+import Tripleads from "../Components/triplead";
+import Footer from "../Components/footer";
 
 const MainPage = () => {
   return (
@@ -164,6 +166,90 @@ const MainPage = () => {
           "https://floimages.mncdn.com/media/catalog/product/img/banners/24-07/19/tekli-web-erkek-dockers-v2.jpg.webp"
         }
       />
+
+      <Tripleads
+        link1={
+          "https://floimages.mncdn.com/mnresize/768/-/media/catalog/product/img/banners/24-07/19/erkek-her-adimda-rahatlik-1721338449.jpg.webp?w=768"
+        }
+        link2={
+          "https://floimages.mncdn.com/mnresize/768/-/media/catalog/product/img/banners/24-07/26/mp-erkek-tudors-polo-yaka-tshirt-1200x654-1721995079.jpg.webp?w=768"
+        }
+        link3={
+          "https://floimages.mncdn.com/mnresize/768/-/media/catalog/product/img/banners/24-07/25/erkek-vazgec-ilmez-s-iklik-1721892280.jpg.webp?w=768"
+        }
+      ></Tripleads>
+
+      <Tripleads
+        link1={
+          "https://floimages.mncdn.com/mnresize/768/-/media/catalog/product/img/banners/24-07/25/mp-erkek-madmext-atlet-1200x654-1721891142.jpg.webp?w=768"
+        }
+        link2={
+          "https://floimages.mncdn.com/mnresize/768/-/media/catalog/product/img/banners/24-07/19/erkek-spor-stili1200x654-1721338746.jpg.webp?w=768"
+        }
+        link3={
+          "https://floimages.mncdn.com/mnresize/768/-/media/catalog/product/img/banners/24-07/17/mp-erkek-crocs-birkenstock-1200x654-1721229140.jpg.webp?w=768"
+        }
+      ></Tripleads>
+
+      <Tripleads
+        link1={
+          "https://floimages.mncdn.com/mnresize/768/-/media/catalog/product/img/banners/24-07/19/erkek-rengarenk_giyim-u-ru-nleri-1721339106.jpg.webp?w=768"
+        }
+        link2={
+          "https://floimages.mncdn.com/mnresize/768/-/media/catalog/product/img/banners/24-07/17/mp-erkek-adidas.jpg.webp?w=768"
+        }
+        link3={
+          "https://floimages.mncdn.com/mnresize/768/-/media/catalog/product/img/banners/24-07/25/erkek-du-nya-markalarinda-en-yeniler-1721890739.jpg.webp?w=768"
+        }
+      ></Tripleads>
+
+      <Tripleads
+        link1={
+          "https://floimages.mncdn.com/mnresize/768/-/media/catalog/product/img/banners/24-07/19/erkek-marin-loafer-1721338513.jpg.webp?w=768"
+        }
+        link2={
+          "https://floimages.mncdn.com/mnresize/768/-/media/catalog/product/img/banners/24-03/21/erkek-cu-zdan-kemer-1711005249.jpg.webp?w=768"
+        }
+        link3={
+          "https://floimages.mncdn.com/mnresize/768/-/media/catalog/product/img/banners/24-07/25/erkek-stilini-yansitan-c-antalar-1721891288.jpg.webp?w=768"
+        }
+      ></Tripleads>
+
+      <Tripleads
+        link1={
+          "https://floimages.mncdn.com/mnresize/768/-/media/catalog/product/img/banners/24-07/01/mp-erkek-kamp-zamani-stanley1200x654-1719830435.jpg.webp?w=768"
+        }
+        link2={
+          "https://floimages.mncdn.com/mnresize/768/-/media/catalog/product/img/banners/24-07/25/mp-erkek-max-tshirtler-1200x654-1721891864.jpg.webp?w=768"
+        }
+        link3={
+          "https://floimages.mncdn.com/media/catalog/product/img/banners/24-07/25/mp-erkek-deniz-s-ortlari-1200x654.jpg"
+        }
+      ></Tripleads>
+
+      <h1
+        style={{
+          marginLeft: "23rem",
+          fontWeight: "normal",
+          fontSize: "30px",
+          color: "gray",
+        }}
+      >
+        İyilik Mağazası
+      </h1>
+
+      <Tripleads
+        link1={
+          "https://floimages.mncdn.com/media/catalog/product/img/banners/24-07/10/i-yilikmagazasi.jpg"
+        }
+        link2={
+          "https://floimages.mncdn.com/media/catalog/product/img/banners/24-07/10/kalben.jpg"
+        }
+        link3={
+          "https://floimages.mncdn.com/media/catalog/product/img/banners/24-07/10/koruncuk.jpg"
+        }
+      ></Tripleads>
+      <Footer></Footer>
     </div>
   );
 };
