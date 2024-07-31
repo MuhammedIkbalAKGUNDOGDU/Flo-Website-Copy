@@ -275,16 +275,13 @@ body {
   grid-template-columns: 2fr 1fr 2fr;
 }
 
-.musteri_hizmetleri {
-}
-
 .underline {
   width: 195px;
   background-color: rgba(48, 47, 47, 0.13);
   height: 0.5px;
 }
 
-.underline2{
+.underline2 {
   width: 417px;
 }
 
@@ -296,9 +293,7 @@ body {
   }
 }
 
-.follow_us {
-  background-color: aqua;
-}
+
 
 .third {
   background-color: #f60;
