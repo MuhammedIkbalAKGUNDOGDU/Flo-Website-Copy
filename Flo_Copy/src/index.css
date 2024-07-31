@@ -293,8 +293,14 @@ body {
   }
 }
 
+.thirt-element {
+  border-bottom: 1px solid rgba(48, 47, 47, 0.13);
+  padding-bottom: 0%;
+  width: 100%;
+}
 
-
-.third {
-  background-color: #f60;
+.footer_bottom{
+height: 159px;
+margin-left: 23rem;
+width: 1200px;
 }
