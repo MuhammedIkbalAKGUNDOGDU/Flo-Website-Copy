@@ -110,6 +110,60 @@ const MainPage = () => {
       <h1 className="begenilenler">Sezonun Öne Çıkan Koleksiyonları</h1>
 
       <Swiperlike></Swiperlike>
+
+      <Mainpageads
+        link={
+          "https://floimages.mncdn.com/media/catalog/product/img/banners/24-07/25/mp-erkek-kampu-su-n-yildiz-sirt-c-anta-gap-eastpak-uspa-vans-1600x429.jpg.webp"
+        }
+      />
+
+      <Mainpageads
+        link={
+          "https://floimages.mncdn.com/media/catalog/product/img/banners/24-07/10/erkek-tekli-jackjones-20.jpg.webp"
+        }
+      />
+
+      <Mainpageads
+        link={
+          "https://floimages.mncdn.com/media/catalog/product/img/banners/24-07/25/buratti-1-alana-1-bedava-1600x429.jpg.webp"
+        }
+      />
+
+      <Mainpageads
+        link={
+          "https://floimages.mncdn.com/media/catalog/product/img/banners/24-07/17/erkek-basketbol-zamani-1600x429.jpg.webp"
+        }
+      />
+
+      <Mainpageads
+        link={
+          "https://floimages.mncdn.com/media/catalog/product/img/banners/24-07/29/mp-erkek-valizlerde-50ye-varan-1600x429.jpg.webp"
+        }
+      />
+
+      <Mainpageads
+        link={
+          "https://floimages.mncdn.com/media/catalog/product/img/banners/24-07/25/tekli-web-erkek-i-nci.jpg.webp"
+        }
+      />
+
+      <Mainpageads
+        link={
+          "https://floimages.mncdn.com/media/catalog/product/img/banners/24-06/10/mp-erkek-aqua-di-polo-3-al-1-o-de-1600x429.jpg.webp"
+        }
+      />
+
+      <Mainpageads
+        link={
+          "https://floimages.mncdn.com/media/catalog/product/img/banners/24-07/25/tekli-web-erkek-us-polo-assn.jpg.webp"
+        }
+      />
+
+      <Mainpageads
+        link={
+          "https://floimages.mncdn.com/media/catalog/product/img/banners/24-07/19/tekli-web-erkek-dockers-v2.jpg.webp"
+        }
+      />
     </div>
   );
 };
